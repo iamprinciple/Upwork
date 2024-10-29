@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*body{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    height: 70px;
+    background-color: white;
+}
+nav img{
+    width: 100px;
+    height: 60px;
+}
+.find-wrk{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    text-align: center;
+    align-items: center; 
+}
+ .find-wrk button{
+    background-color: transparent;
+    border: 0px;
+    align-items: center;
+}
+.find-main{
+    display: flex;
+}
+.find-btn{
+    width: 120px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    background-color: white;
+}
+.job-btn{
+    width: 120px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    background-color: white;
+}
+.rep-btn{
+    width: 120px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    background-color: white;
+}
+.ul-abs{
+    position: absolute;
+    display: none;
+    width: 250px;
+    height: 170px;
+    margin: 60px;
+    text-align: left;
+    border-radius: 10px;
+    left: -60%;
+    background-color: whitesmoke;
+    top: 0;
+}
+.ul-job{
+    position: absolute;
+    display: none;
+    width: 250px;
+    height: 100px;
+    margin: 60px;
+    text-align: left;
+    border-radius: 10px;
+    left: -60%;
+    background-color: whitesmoke;
+    top: 0;
+}
+.ul-rep{
+    position: absolute;
+    display: none;
+    width: 250px;
+    height: 170px;
+    margin: 60px;
+    text-align: left;
+    border-radius: 10px;
+    left: -60%;
+    background-color: whitesmoke;
+    top: 0;
+}
+.find-btn:hover .ul-abs{
+    display: block;
+}
+.job-btn:hover .ul-job{
+    display: block;
+}
+.rep-btn:hover .ul-rep{
+    display: block;
+}
+.ser-dv{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.ser-dv img{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+form{
+    background-color: white;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    align-items: center;
+    /* display: flex; */
+    flex-direction: row;
+}
+form input{
+    width: 250px;
+    height: 38px;
+    border-radius: 20px;
+    border: 0px;
+}
+form button{
+    height: 38px;
+    width: 66px;
+    display: flex;
+    /* align-items: center; */
+    border-radius: 20px;
+}
+.icon-fx{
+    display: flex;
+    gap: 20px;
+}
+.both-dv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: 20px; */
+}
+.wing-left{
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+header{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: white;
+}
+.h-dv{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.h-dv button{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+}
+#mess-input{
+    border-radius: 20px;
+    width: 210px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid gray;
+}
+.texter{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+}
+.wing-right{
+    width: 1000px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.wing-right img{
+    width: 500px;
+    height: 380px;
+    align-items: center;
+    /* margin: auto; */
+}
+.tex-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.well-dv strong{
+    font-size: 40px;
+    font-weight: 400;
+}
+.well-dv p{
+    width: 490px;
+    text-align: center;
+}
+.tex-img button{
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    margin: auto;
+}

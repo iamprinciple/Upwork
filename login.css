@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*body{
+    width: 100%;
+    height: 100vh;
+}
+main{
+    width: 95%;
+    height: 900px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    text-align: center;
+    height: 70px;
+    background-color: white;
+}
+nav img{
+    width: 100px;
+    height: 60px;
+}
+.logdv{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 470px;
+    height: 600px;
+    margin: auto;
+}
+.big-dv{
+    margin-top: 60px;
+}
+.log-dv1 h1{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.log-dv1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 35px;
+}
+.log-dv1 input{
+    width: 350px;
+    height: 40px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.log-dv1 button{
+    width: 350px;
+    height: 40px;
+   margin: auto;
+   border-radius: 30px;
+   background-color: green;
+   color: white;
+   border: 0px;
+}
+#googlebtn{
+    width: 350px;
+    height: 40px;
+   margin: auto;
+   border-radius: 30px;
+   background-color: rgb(66,133,244);
+   border: 0px;
+}
+#applebtn{
+    width: 350px;
+    height: 40px;
+   margin: auto;
+   border-radius: 30px;
+   background-color: white;
+   border: 1px solid black;
+   color: black;
+}
+.hr-dv hr{
+    width: 150px;
+    border: 1px solid gray;
+}
+.hr-dv2 hr{
+    width: 50px;
+    border: 1px solid gray;
+}
+.hr-dv, .hr-dv2{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.up-down{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+#sign1{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+    border-radius: 30px;
+    margin: auto;
+}
+.down1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 25px;
+}
+footer{
+    background-color: black;
+    width: 97%;    
+    height: 100px;
+    margin: auto;
+    border-radius: 15px;
+}
+.ft-dv p{
+    color: white;
+    margin: auto;
+    text-align: center;
+}
